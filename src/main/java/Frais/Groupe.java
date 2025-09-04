@@ -2,12 +2,12 @@ package Frais;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @AllArgsConstructor
 @Getter
-@NoArgsConstructor
+@ToString
 public class Groupe {
     private int id;
-    private int nom;
+    private String nom;
 }
