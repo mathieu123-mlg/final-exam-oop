@@ -42,4 +42,9 @@ public class EtudiantTest {
     public void FraisTest(){
         Assertions.assertEquals(Status.PAID, frais.statusFrais(), "Montant payer");
     }
+
+    @Test
+    public void StatisticsFraisTest(){
+
+    }
 }

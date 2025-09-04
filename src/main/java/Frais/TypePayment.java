@@ -10,6 +10,7 @@ import java.time.Instant;
 @Getter
 @ToString
 @EqualsAndHashCode
+@AllArgsConstructor
 public class TypePayment {
     private final int id;
     private final double montant_a_payer;
